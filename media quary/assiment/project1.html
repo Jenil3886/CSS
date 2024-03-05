@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css start -->
+
+    <style>
+        .allbox {
+            border: 1px solid black;
+            height: 1000%;
+        }
+
+        .box1 {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .f1 {
+            padding: 30px;
+        }
+
+        .box2 {
+            float: left;
+            width: 48%;
+            /* border: 1px solid black; */
+            padding: 5px;
+            border-right: 3px solid black;
+        }
+
+        .box3 {
+            float: right;
+            width: 48%;
+            /* border: 1px solid black; */
+            padding: 5px;
+            /* border-left: 5px solid black; */
+        }
+
+        @media screen and (max-width:1120px) {
+
+            .box2,
+            .box3 {
+                float: none;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .box2{
+                /* display: none; */
+                border-right: 3px solid black; 
+            }
+
+            .box2 {
+            
+            /* width: 48%; */
+            /* border: 1px solid black; */
+            padding: 5px;
+            border-right: 3px solid black;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="allbox">
+        <div class="f1">Aspire</div>
+        <div></div>
+        <div></div>
+        <div class="box1">
+            Welcome to all Student
+        </div>
+        <div class="box2">
+            <h3>GOOD MORNING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni voluptatem praesentium, provident
+                illum obcaecati accusamus dolores dolorem qui odio iste dicta reiciendis nam sit quaerat sunt fuga
+                voluptatibus quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni voluptatem praesentium, provident
+                illum obcaecati accusamus dolores dolorem qui odio iste dicta reiciendis nam sit quaerat sunt fuga
+                voluptatibus quo.</p>
+        </div>
+
+
+        <div class="box3">
+            <h3>GOOD AFTERNOON</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni voluptatem praesentium, provident
+                illum obcaecati accusamus dolores dolorem qui odio iste dicta reiciendis nam sit quaerat sunt fuga
+                voluptatibus quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni voluptatem praesentium, provident
+                illum obcaecati accusamus dolores dolorem qui odio iste dicta reiciendis nam sit quaerat sunt fuga
+                voluptatibus quo.</p>
+        </div>
+        <h4>Gmail.com</h4>
+
+
+    </div>
+
+</body>
+
+</html>

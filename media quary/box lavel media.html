@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- start css -->
+
+    <style>
+        .allbox {
+            border: 1px solid black;
+        }
+
+        .box1 {
+            width: 48%;
+            float: left;
+            background-color: hotpink;
+            padding: 10px;
+        }
+
+        .box2 {
+            width: 48%;
+            float: right;
+            background-color: hotpink;
+            padding: 10px;
+        }
+
+        @media screen and (max-width:1016px) {
+
+            .box1,
+            .box2 {
+                float: none;
+                width: 100%;
+                margin-bottom: 20px;
+                background-color: gray;
+                color: tan;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="allbox">
+
+        <div class="box1">
+            <h1>Aspire 1</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quibusdam laborum accusamus veritatis
+                debitis praesentium, odio quidem quae sint. Laboriosam earum, vitae iste inventore dignissimos possimus
+                sint ullam ratione ex.</p>
+
+        </div>
+
+        <div class="box2">
+            <h1>Aspire 2</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quibusdam laborum accusamus veritatis
+                debitis praesentium, odio quidem quae sint. Laboriosam earum, vitae iste inventore dignissimos possimus
+                sint ullam ratione ex.</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.li1{
+    color: green;
+}
+
+.li2{
+    background-color: green;
+}
+
+ul{
+    width: 80%;
+    line-height: 80px;
+    list-style: none;
+    float: right;
+}
+
+li{
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+}
+
+img{
+    background-repeat: no-repeat ;
+
+}
+
+.jenil{
+    font-size: 45px;
+    direction: ltr;
+    text-align: center; 
+    position:absolute;
+    top: 200px;
+    left: 150px;
+    color: aliceblue;
+      
+}
+
+
+.jenil1{
+    font-size: 35px;
+    color: #80EAA8;
+    direction: ltr;
+    text-align: center;
+    position:absolute;
+    top: 340px;
+    left: 250px;
+}
+
+.bold{
+    position: absolute;
+    top: 400;
+    left: 355px;
+    text-align: center;
+    word-spacing: 5px;
+    
+}
+
+.img1{
+    width: 310px;
+    height: 300px;
+    border: 1px solid green;
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 310px 300px;
+    top: 1100px;
+    left: 90px;
+    margin: 5px;
+}
+
+.img2{
+    width: 310px;
+    height: 300px;
+    border: 1px solid green;
+    background-image: url(photo2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 310px 300px;
+    top: 1100px;
+    left: 450px;
+    margin: 5px;
+}
+
+.img3{
+    width: 310px;
+    height: 300px;
+    border: 1px solid green;
+    background-image: url(photo3.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 310px 300px;
+    top: 1100px;
+    left: 800px;
+    margin: 5px;
+}
+
+.g2{
+    position: absolute;
+    top: 1150px;
+}

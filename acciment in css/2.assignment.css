@@ -1,0 +1,97 @@
+body{
+    background-image: url(16.jpg);
+    background-repeat: no-repeat;
+    height: 1600px;
+    width: 1700px;
+    background-size: 1500px 1000px;
+  
+}
+
+.jenil{
+     color: #4270EA;
+     position: absolute;
+     bottom: 350px;
+     left: 40px;
+     font-size: 80px;
+}
+
+.jenil2{
+    color:aliceblue;
+    position:absolute;
+    bottom: 320px;
+    left: 40px;
+    font-size: 35px;
+}
+
+.jenil3{
+    color: #4270EA;
+    position:absolute;
+    bottom: 245px;
+    left: 40px;
+    font-size: 80px;
+}
+
+.jenil4{
+    color: black;
+    position: absolute;
+    bottom: 220px;
+    left: 40px;
+    font-size: 35px;
+}
+
+a:link{
+    color: aliceblue;
+}
+
+a:hover{
+    color: #AB7D54;
+}
+
+li{
+    display: inline;
+    color: aliceblue;
+    border: 1px solid #4270EA ; 
+}
+
+ul{
+    width: 70%;
+    direction: ltr;
+    position: absolute;
+    float: right;
+    word-spacing: 10px;
+    text-align: right;
+
+}
+   
+.heder{
+    width: 100%;
+    direction: ltr;
+    position:absolute;
+    right: 15px;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    top: 110px;
+    right: 390px;
+    position:absolute;
+    height: 30%;
+    width: 30%;
+}
+
+.lorem{
+    width: 400px;
+    height: 300px;
+    color: black;
+    background-color: #BF71F1;
+    border: 1px soluid black;
+    overflow: hidden;
+    position:absolute;
+    right: 10px;
+    top: 250px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+}
